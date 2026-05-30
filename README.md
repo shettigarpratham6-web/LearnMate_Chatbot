@@ -22,8 +22,8 @@ LearnMate is a simple AI chatbot built with Streamlit, LangChain, and Mistral AI
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/LearnMate_Chatbot.git
-cd LearnMate_Chatbot
+git clone https://github.com/shettigarpratham6-web/LearnMate_Chatbot.git
+cd LearnMate_Chatbot/chat_bot
 ```
 
 Install dependencies:
@@ -42,6 +42,20 @@ Run the application:
 
 ```bash
 streamlit run main.py
+```
+
+## Project Structure
+
+```text
+chat_bot/
+│
+├── .venv/
+├── .env
+├── .python-version
+├── main.py
+├── pyproject.toml
+├── README.md
+└── requirements.txt
 ```
 
 ## Author
